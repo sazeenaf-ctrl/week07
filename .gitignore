@@ -197,3 +197,8 @@ cython_debug/
 .cursorindexingignore
 
 node_modules/
+
+# Local secrets — never commit
+GITHUB_SETUP_SECRETS.txt
+*.azure_credentials.json
+azure_credentials.json
